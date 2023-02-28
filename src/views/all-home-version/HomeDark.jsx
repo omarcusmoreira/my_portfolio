@@ -14,7 +14,7 @@ const menuItem = [
   { icon: "fa-user", menuName: "Sobre" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contato" },
-  { icon: "fa-comments", menuName: "Blog" },
+  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {
@@ -131,7 +131,7 @@ const HomeDark = () => {
           {/* Contact Content Ends */}
 
           {/* Blog Content Starts */}
-          <TabPanel className="blog">
+          {/* <TabPanel className="blog">
             <div
               className="title-section text-left text-sm-center "
               data-aos="fade-up"
@@ -146,14 +146,14 @@ const HomeDark = () => {
               className="container"
               data-aos="fade-up"
               data-aos-duration="1200"
-            >
+            > */}
               {/*  Articles Starts  */}
-              <div className="row pb-50">
+              {/* <div className="row pb-50">
                 <Blog />
-              </div>
+              </div> */}
               {/* Articles Ends */}
-            </div>
-          </TabPanel>
+            {/* </div>
+          </TabPanel> */}
           {/* Blog Content Ends */}
         </div>
       </Tabs>
