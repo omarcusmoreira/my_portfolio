@@ -23,7 +23,6 @@ const experienceContent = [
         elit, sed do eiusmod tempor duntt`,
   },
 ];
-
 const Experience = () => {
   return (
     <ul>

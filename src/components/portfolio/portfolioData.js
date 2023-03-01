@@ -22,7 +22,7 @@ const PortfolioData = [
   },
   {
     id: 2,
-    type: "youtube project",
+    type: "website project",
     image: Image2,
     tag: ["mockup"],
     delayAnimation: "100",
@@ -38,7 +38,7 @@ const PortfolioData = [
   },
   {
     id: 3,
-    type: "slider project",
+    type: "website project",
     image: Image3,
     tag: ['mockup'],
     delayAnimation: "200",
