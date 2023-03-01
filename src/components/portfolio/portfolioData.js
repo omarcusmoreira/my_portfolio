@@ -1,4 +1,6 @@
 import Image1 from "../../assets/img/portfolio/1-layover.jpg";
+import Image2 from "../../assets/img/portfolio/2-github-user-lister.jpg";
+import Image3 from "../../assets/img/portfolio/3-pd-quiz.jpg";
 
 
 const PortfolioData = [
@@ -18,38 +20,38 @@ const PortfolioData = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   type: "youtube project",
-  //   image: Image2,
-  //   tag: ["video"],
-  //   delayAnimation: "100",
-  //   modalDetails: [
-  //     {
-  //       project: "video",
-  //       client: "Videohive",
-  //       language: " Adobe After Effects",
-  //       preview: "www.videohive.net",
-  //       link: "https://www.videohive.net",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   type: "slider project",
-  //   image: Image3,
-  //   tag: [],
-  //   delayAnimation: "200",
-  //   modalDetails: [
-  //     {
-  //       project: "Website",
-  //       client: "Themeforest",
-  //       language: " HTML, CSS, Javascript",
-  //       preview: "www.envato.com",
-  //       link: "https://www.envato.com",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    type: "youtube project",
+    image: Image2,
+    tag: ["mockup"],
+    delayAnimation: "100",
+    modalDetails: [
+      {
+        project: "website",
+        client: "Study Case",
+        language: "React, Typescript, Redux",
+        preview: "github",
+        link: "https://github.com/omarcusmoreira/github-user-lister-rematch",
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "slider project",
+    image: Image3,
+    tag: ['mockup'],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Website",
+        client: "PD Solutions",
+        language: "React, Typescript, ContextAPI, Styled Components",
+        preview: "www.pd-quiz.com",
+        link: "https://pd-quiz-6jxn6xmil-omarcusmoreira.vercel.app/",
+      },
+    ],
+  },
   // {
   //   id: 4,
   //   type: "local project",
