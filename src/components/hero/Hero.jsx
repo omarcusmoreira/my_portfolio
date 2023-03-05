@@ -4,16 +4,17 @@ import heroImg from "../../assets/img/hero/profile_picture.png";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
+import Social from "../Social";
+import Address from "../Address";
+import Contact from "../Contact";
 
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "marcus moreira",
   heroDesignation: "web designer",
-  heroDescriptions: `I'm a Brazilian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences. I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDescriptions: `I'm a Brazilian based front‑end developer focused on
+  crafting clean & user‑friendly experiences. I have a large experience deploying ReactJS applications, with pixel perfect focus that have affected millions of users worldwide.`,
   heroBtn: "more about me",
 };
 
@@ -46,10 +47,22 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <button className="button" onClick={toggleModalOne}>
-              <span className="button-text">{heroContent.heroBtn}</span>
-              <span className="button-icon fa fa-arrow-right"></span>
-            </button>
+            <div
+              className="container"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="row">
+                {/*  Left Side Starts */}
+                <div className="col-12 col-lg-4">
+
+                  <Social />
+                  {/* End Social */}
+                </div>
+                {/* Left Side Ends */}
+
+                </div>
+            </div>
           </div>
         </div>
       </div>
